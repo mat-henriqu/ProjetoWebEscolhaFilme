@@ -384,10 +384,18 @@ document.getElementById('filmeForm').addEventListener('submit', function(event) 
         ]
     };
 
+    const imagensDosFilmes = {
+        'Simplesmente Acontece': 'https://br.web.img3.acsta.net/pictures/14/12/11/15/29/051042.jpg',
+    };
+
     const filmesDoTipoSelecionado = filmes[tipoFilme];
     const filmeAleatorio = filmesDoTipoSelecionado[Math.floor(Math.random() * filmesDoTipoSelecionado.length)];
 
+    const imagemDoFilme = imagensDosFilmes[filmeAleatorio];
 
     const resultadoDiv = document.getElementById('resultado');
-    resultadoDiv.innerHTML = `Que tal assistir a: <strong>${filmeAleatorio}</strong>?`;
+    resultadoDiv.innerHTML = `
+        <h2>Que tal assistir a: <strong>${filmeAleatorio}</strong>?</h2>
+        <img src="${imagemDoFilme}" alt="${filmeAleatorio}"> <!-- Exibe a imagem do filme -->
+    `;
 });
