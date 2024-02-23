@@ -10,7 +10,6 @@ document.getElementById('filmeForm').addEventListener('submit', function(event) 
             'Casa Comigo?',
             'O Amor Não Tira Férias',
             'Questão de Tempo',
-            'Enquanto Você Dormia',
             'A Proposta',
             'Se Beber, Não Case!',
             'De Repente é Amor',
@@ -386,6 +385,17 @@ document.getElementById('filmeForm').addEventListener('submit', function(event) 
 
     const imagensDosFilmes = {
         'Simplesmente Acontece': 'https://br.web.img3.acsta.net/pictures/14/12/11/15/29/051042.jpg',
+        'Como Eu Era Antes de Você': 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTCmzy3-MqWaI0a9rBMxmpJQoEImCkWjyt12v_zIPJPQ9t4olQB',
+        'Casa Comigo?': 'https://br.web.img2.acsta.net/medias/nmedia/18/78/56/33/19483282.jpg',
+        'O Amor Não Tira Férias': 'https://br.web.img3.acsta.net/medias/nmedia/18/95/48/11/20407384.jpg',
+        'Questão de Tempo': 'https://br.web.img3.acsta.net/pictures/210/530/21053062_20131025204305591.jpg',
+        'A Proposta': 'https://br.web.img3.acsta.net/r_1920_1080/medias/nmedia/18/68/51/20/19095268.jpg',
+        'Se Beber, Não Case!': 'https://images.justwatch.com/poster/181482661/s592/se-beber-nao-case',
+        'De Repente é Amor': 'https://image.tmdb.org/t/p/w500/p8DBnMb9k5vpywy3n7sMpKnbV5X.jpg',
+        'Um Amor de Tesouro': 'https://br.web.img3.acsta.net/c_310_420/medias/nmedia/18/86/94/51/19870381.jpg',
+        
+
+
     };
 
     const filmesDoTipoSelecionado = filmes[tipoFilme];
@@ -395,7 +405,7 @@ document.getElementById('filmeForm').addEventListener('submit', function(event) 
 
     const resultadoDiv = document.getElementById('resultado');
     resultadoDiv.innerHTML = `
-        <h2>Que tal assistir a: <strong>${filmeAleatorio}</strong>?</h2>
+        <h2>Que tal assistir a: <strong>${filmeAleatorio}</strong></h2>
         <img src="${imagemDoFilme}" alt="${filmeAleatorio}">
     `;
 });

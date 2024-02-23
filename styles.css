@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: auto;
     padding: auto;
-    background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20210902/pngtree-movie-film-strip-gray-minimalist-background-image_784563.jpg'); 
+    background-image: url('https://img.freepik.com/vetores-premium/padrao-de-vetor-de-cinema-de-filme-doodle-estilo-de-esboco-desenhado-a-mao-padrao-perfeito-de-filme-elementos-de-cinema-para-producao-de-midia-festival-fundo-de-teatro-vector_253081-1506.jpg'); 
     color: #fff; 
 }
 
@@ -11,18 +11,19 @@ body {
     margin: 50px auto;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 8px;
+    border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 h1 {
     text-align: center;
-    color: violet;
+    color: rgb(255, 255, 255);
 }
 
 p {
     text-align: center;
     margin-bottom: 20px;
+    color: rgb(255, 255, 255);
 }
 
 form {
@@ -32,7 +33,7 @@ form {
 label {
     display: block;
     margin-bottom: 10px;
-    color:darksalmon;
+    color: rgb(255, 255, 255);
 }
 
 select {
