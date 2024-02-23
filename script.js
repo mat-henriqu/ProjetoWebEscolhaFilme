@@ -396,6 +396,6 @@ document.getElementById('filmeForm').addEventListener('submit', function(event) 
     const resultadoDiv = document.getElementById('resultado');
     resultadoDiv.innerHTML = `
         <h2>Que tal assistir a: <strong>${filmeAleatorio}</strong>?</h2>
-        <img src="${imagemDoFilme}" alt="${filmeAleatorio}"> <!-- Exibe a imagem do filme -->
+        <img src="${imagemDoFilme}" alt="${filmeAleatorio}">
     `;
 });
