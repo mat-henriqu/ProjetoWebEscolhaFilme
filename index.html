@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noite de Filmes com Amor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Film night with my love!</h1>
+        <p>Escolha o tipo de filme que vocês gostariam de assistir juntos.</p>
+        <form id="filmeForm">
+            <label for="tipoFilme">Escolha o tipo de filme:</label>
+            <select name="tipoFilme" id="tipoFilme">
+                <option value="comedia_romantica">Comédia Romântica</option>
+                <option value="drama">Drama</option>
+                <option value="acao">Ação</option>
+                <option value="suspense">Suspense</option>
+                <option value="terror">Terror</option>
+                <option value="ficcao_cientifica">Ficção Científica</option>
+                <option value="animacao">Animação</option>
+                <option value="documentario">Documentário</option>
+                <option value="fantasia">Fantasia</option>
+                <option value="musical">Musical</option>
+            </select>
+            <button type="submit">Sugerir Filme</button>
+        </form>
+        <div id="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
